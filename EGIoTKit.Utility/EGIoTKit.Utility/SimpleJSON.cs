@@ -51,7 +51,7 @@ namespace EGIoTKit.Utility
         }
         void AddKey(string key)
         {
-            sb.Append("\"" + key + "\":\"");
+            sb.Append("\"" + key + "\":");
         }
     }
 }
