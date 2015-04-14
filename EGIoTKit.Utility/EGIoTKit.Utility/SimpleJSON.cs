@@ -40,7 +40,7 @@ namespace EGIoTKit.Utility
 
         void AddPre()
         {
-            if (sb.ToString() == "")
+            if (sb.Length == 0)
             {
                 sb.Append("{");
             }
@@ -51,7 +51,7 @@ namespace EGIoTKit.Utility
         }
         void AddKey(string key)
         {
-            sb.Append("\"" + key + "\":\"");
+            sb.Append("\"" + key + "\":");
         }
     }
 }
