@@ -40,7 +40,7 @@ namespace EGIoTKit.Utility
 
         void AddPre()
         {
-            if (sb.ToString() == "")
+            if (sb.Length == 0)
             {
                 sb.Append("{");
             }
